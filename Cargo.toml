@@ -1,0 +1,9 @@
+[package]
+name = "trump-golf-track"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+chrono = { version = "0.4.39", default-features = false, features = ["std"] }
+headless_chrome = "1.0.15"
